@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>naomi.co</title>
+    <style>
+       
+        .rawr{
+            flex-direction: row !important;
+        }
+        .alga{
+            background-color: #F0EDEA;
+        }
+        .navbar-nav{
+        padding-right: 350px;
+        }
+        .hai{
+            margin-top: 131px;
+            color: #000;
+            padding-bottom: 25px;
+            font-size: 55px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        .halo{
+            color: #000;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        .login{
+            position: relative;
+            width: 90px;
+            height: 44px;
+            border-radius: 13px;
+            border: 4px solid #F7A29F;
+            margin-top: 37px;
+            left: 74px;
+        }
+        .login a{
+            color: #000;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration: none;
+        }
+        .signin{
+            position: relative;
+            width: 90px;
+            height: 44px;
+            border-radius: 13px;
+            background: #F7A29F;
+            border: none;
+            margin-left: 111px;
+        }
+        .signin a{
+            color: #F5F5F5;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration: none;
+        }
+        .col-3{
+            position: relative;
+            left: 70px;
+            top: 50px;
+
+
+            color: #000;
+            font-family: 'Josefin Sans',sans-serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 100;
+            margin-bottom: 40px;
+            /* text-align: center; */
+            /* line-height: normal; */
+        }
+
+        #saved{
+            position: relative;
+            left: 20px;
+        }
+
+        #dangdut{
+            position: relative;
+            right: 15px;
+        }
+
+        .col-4{
+            margin-top: 100px;
+        }
+
+        #gal{
+            margin-top: 100px;
+        }
+        footer{
+            color: #000;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-align: center;
+            margin-top: 150px;
+        }
+    </style>
+</head>
+<body class="alga">
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar justify-content-center">
+                <ul class="navbar-nav">
+                   <li class="navbar-brand"><img id="logo" src="logo.png" alt="logo"></li> 
+                </ul>
+
+                <ul class="navbar-nav rawr">
+                    <li class="nav-item mx-3"><a class="nav-link" href="#playlist">Playlist</a></li>
+                    <li class="nav-item mx-3"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item mx-3"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+             </nav>
+        
+    </div>
+    </div>
+
+    <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col-6">
+                <h1 class="hai">Hear Music Quietly</h1>
+                <h5 class="halo">want to listen to music quietly? use <u>naomi.co</u></h5>
+                <button class="login"><a  href="">log in</a></button>
+                <button class="signin"><a  href="">sign in</a></button>
+            </div>
+            <div class="col-6">
+                <img src="content1.png" alt="content1">
+            </div>
+        </div>
+    <!-- </div> -->
+
+    <div class="row" id="playlist">
+        <div class="col-12">
+            <h1 class="playlist">Playlist</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+            <img src="fav.png" alt="" width="105px" height="100px">
+            <p>Favourite</p>
+        </div>
+
+        <div class="col-3">
+            <img src="saved.png" alt="" width="105px" height="100px">
+            <p id="saved">Saved</p>
+        </div>
+
+        <div class="col-3">
+            <img src="daily.png" alt="" width="105px" height="100px">
+            <p>Daily mix</p>
+        </div>
+
+        <div class="col-3">
+            <img src="moody.png" alt="" width="105px" height="100px">
+            <p>Moody Mix</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+            <img src="3am.png" alt="" width="105px" height="100px">
+            <p>3am Mix</p>
+        </div>
+
+        <div class="col-3">
+            <img src="trend.png" alt="" width="105px" height="100px">
+            <p>Trend Mix</p>
+        </div>
+
+        <div class="col-3">
+            <img src="pop.png" alt="" width="105px" height="100px">
+            <p>Pop mix</p>
+        </div>
+
+        <div class="col-3">
+            <img src="dangdut.png" alt="" width="105px" height="100px">
+            <p id="dangdut">Dangdut Mix</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <h1 id="gal">Gallery</h1>
+        </div>
+    </div>
+
+    <div class="row" id="gallery">
+        <div class="col-4">
+            <img src="satu.png" alt="">
+        </div>
+
+        <div class="col-4">
+            <img src="dua.png" alt="">
+        </div>
+
+        <div class="col-4">
+            <img src="tiga.png" alt="">
+        </div>
+    </div>
+
+    <div class="row" id="contact">
+        <div class="col-12">
+            <footer>
+                <p>@naomi.co</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
